@@ -33,6 +33,11 @@
     -webkit-line-clamp: unset;
 }
 
+.home-info > .logo {
+    display: flex;
+    justify-content: center
+}
+
 .post-entry {
     position: relative;
     margin-bottom: var(--gap);
