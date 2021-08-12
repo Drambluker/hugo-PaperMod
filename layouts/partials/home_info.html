@@ -1,5 +1,11 @@
 {{- with site.Params.homeInfoParams }}
 <article class="first-entry home-info">
+    {{- if .LogoUrl -}}
+    <div class="logo">
+        <img src="{{ .LogoUrl }}" alt="{{ .LogoTitle | default "logo image" }}"
+            height="{{ .LogoHeight | default 150 }}" width="{{ .LogoWidth | default 150 }}" />
+    </div>
+    {{- end }}
     <header class="entry-header">
         <h1>{{ .Title | markdownify }}</h1>
     </header>
