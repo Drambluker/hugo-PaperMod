@@ -291,6 +291,28 @@
     outline: 0;
 }
 
+.post-banner {
+    position: relative;
+    margin-bottom: var(--gap);
+    padding: calc(var(--gap) / 2);
+    background: var(--entry);
+    border-radius: var(--radius);
+    transition: transform 0.1s;
+    border: 1px solid var(--border);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.post-banner:active {
+    transform: scale(0.96);
+}
+
+.post-banner > svg {
+    margin-right: .5rem;
+}
+
 .post-footer {
     margin-top: 56px;
 }
