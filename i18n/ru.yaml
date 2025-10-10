@@ -37,3 +37,6 @@
 
 - id: code_copied
   translation: "скопировано!"
+
+- id: okay
+  translation: Хорошо
