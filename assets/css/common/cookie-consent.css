@@ -1,0 +1,28 @@
+#cookie-notice {
+    padding: 0.5rem 1rem;
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 2147483647;
+}
+
+#cookie-notice a {
+    font-weight: 600;
+}
+
+#cookie-notice button {
+    font-weight: 600;
+    margin-left: 0.5rem;
+    white-space: nowrap;
+}
+
+#cookie-notice-accept {
+    //color: rgb(86, 228, 58);
+}
+
+#cookie-notice-deny {
+    color: rgb(243, 34, 34);
+}
